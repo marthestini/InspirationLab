@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewAccountPage</title>
+    <link rel="stylesheet" href="CSS/NewAccountPage.css" type="text/css"> 
+    <link rel="stylesheet" href="CSS/navbar.css" type="text/css">
+</head>
+
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><img src="IMG/Account.png.png" class="NavbarIcons">Account</a>
+        <a href="#"><img src="IMG/settings.png" class="NavbarIcons"> Settings</a>
+        <a href="#"><img src="IMG/graffiti.png" class="NavbarIcons" >Graffiti Swiping</a>
+        <a href="FrontEnd/AdministratorPage/AdministrationPage.HTML"><img src="IMG/administrator.png" class="NavbarIcons">Administrator</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()"><img src="IMG/menu.png" id="NavbarMenuIcon"></span>
+
+
+    <div>
+        <img src="IMG/Account.png.png" id="Img">
+    </div>
+
+    <br>
+    <br>
+
+
+  <div id="createaccount">
+    <form action="">
+  <label for="username" ></label>
+  <input type="text" id="username" name="username" placeholder="Username">
+  <br>
+  <br>
+  <label for="password"></label>
+  <input type="text" id="password" name="password" placeholder="Password">
+  <br>
+  <br>
+  <label for="confirmpassword"></label>
+  <input type="text" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
+  <br>
+  <br>
+  <p>
+    We require your password to be atleast <br>
+    characters long.
+  </p>
+  <br>
+  <input type="checkbox" id="agree" name="agree" value="terms">
+  <label for="agree">By signing up, you agree to our <br> 
+    <strong>Privacy Policy</strong> and <strong>Terms Of Service.</strong> </label>
+  <br>
+  <br>
+
+  <input type="submit" value="SIGN UP" >
+    </form>
+
+  </div>
+
+
+
+<script src="JS/navbar.js">
+        
+    </script>
+
+</body>
+</html>

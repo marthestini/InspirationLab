@@ -1,0 +1,90 @@
+body{
+    background-color: #2596be;
+    color: white;
+}
+
+#logo {
+    border-radius: 40%;
+    height: 360px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+#form {
+text-align: center;
+}
+
+#bottomText {
+    line-height: normal;
+    padding-right: 15px;
+}
+
+
+.sidebar-nav ul li a {
+
+  font-size: 26px;
+
+  text-decoration: none;
+
+  display: block;
+
+  padding: 6px 10px;
+
+  transition: 0.5s;
+
+  color: white;
+  
+
+}
+
+.sidebar-nav ul li a:hover {
+
+  background-color: grey;
+
+  border-radius: 4px;
+
+}
+
+.sidebar-nav .offcanvas {
+
+  width: 220px;
+
+  border: none;
+  background-color: #2596be;
+  color: white;
+
+}
+
+.sidebar-nav .offcanvas ul li a span {
+
+  font-size: 18px;
+
+  position: relative;
+
+  top: -4px;
+
+  transition: 0.5s;
+  
+
+}
+
+.sidebar-nav .offcanvas.show ul li a:hover span {
+
+  padding-left: 10px;
+
+}
+
+.sidebar-nav .dropdown-toggle::after {
+
+  position: relative;
+
+  top: 3px;
+
+}
+

@@ -1,0 +1,17 @@
+body {
+    background-color: #2596be;
+    color: white;
+  }
+  
+  #logo {
+    border-radius: 40%;
+    height: 250px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text{
+      text-align: center;
+  }
